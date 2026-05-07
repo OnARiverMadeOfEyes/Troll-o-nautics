@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "structures": [
+    "nomansland:small_dungeon"
+  ],
+  "spawn_condition": {
+    "type": "lithostitched:sample_density",
+    "density_function": "minecraft:overworld/noise_router/final_density",
+    "min_inclusive": 0.1,
+    "max_inclusive": 2
+  },
+  "append": true
+}
