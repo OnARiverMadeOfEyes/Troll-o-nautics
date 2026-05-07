@@ -5,3 +5,10 @@ fabricloader.log
 /mods/.connector
 imgui.ini
 /data
+/.sable
+/saves
+/.mixin.out
+ponders_watched.json
+usercache.json
+usernamecache.json
+command_history.txt
