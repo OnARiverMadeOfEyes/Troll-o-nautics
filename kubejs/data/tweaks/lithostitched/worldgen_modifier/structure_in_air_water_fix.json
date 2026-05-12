@@ -1,12 +1,13 @@
 {
   "type": "lithostitched:set_structure_spawn_condition",
   "structures": [
-    "nomansland:small_dungeon"
+    "nomansland:small_dungeon",
+    "nomansland:creeper_monument"
   ],
   "spawn_condition": {
     "type": "lithostitched:sample_density",
     "density_function": "minecraft:overworld/noise_router/final_density",
-    "min_inclusive": 0.1,
+    "min_inclusive": 0.01,
     "max_inclusive": 2
   },
   "append": true

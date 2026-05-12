@@ -1,0 +1,31 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "structures": [
+  "create_easy_structures:big_1",
+  "create_easy_structures:big_2",
+  "create_easy_structures:house_2",
+  "create_easy_structures:house_3",
+  "create_easy_structures:house_4"
+  ],
+  "spawn_condition": [
+    {
+      "type": "lithostitched:all_of",
+      "conditions": [
+        {
+          "type": "lithostitched:not",
+          "condition": {
+            "type": "lithostitched:in_biome",
+            "biomes": "#c:is_mountain"
+          }
+        },
+        {
+          "type": "lithostitched:height_filter",
+          "range_type": "absolute",
+          "heightmap": "WORLD_SURFACE_WG",
+          "permitted_range": [60,300]
+        }
+      ]
+    }
+  ],
+  "append": true
+}
