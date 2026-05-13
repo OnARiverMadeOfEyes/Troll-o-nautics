@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#c:is_river",
+    "#c:is_desert",
+    "#c:is_snowy",
+    "#c:is_mountain",
+    "#c:is_beach",
+    "natures_spirit:chaparral",
+    "nomansland:prairie",
+    "nomansland:boreal_forest"
+  ]
+}
