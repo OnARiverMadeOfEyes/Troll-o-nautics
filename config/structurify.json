@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-12_15-51-02",
+  "config_datetime": "2026-05-13_15-50-57",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -38,6 +38,30 @@
       "blacklisted_biomes": [],
       "step": "underground_structures",
       "terrain_adaptation": "bury"
+    },
+    {
+      "name": "nomansland:deep_well",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:ice_spikes"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nomansland:desert_well",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
     }
   ],
   "structure_sets": []
