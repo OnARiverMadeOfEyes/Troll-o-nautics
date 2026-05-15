@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#tweaks:has_rock_salt",
+  "features": [
+    "spelunkery:noise_salt",
+    "spelunkery:rock_salt"
+  ],
+  "step": "raw_generation"
+}
