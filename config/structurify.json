@@ -1,14 +1,95 @@
 {
   "config_version": "2.0.24",
-  "config_datetime": "2026-05-15_10-03-17",
+  "config_datetime": "2026-05-15_13-41-41",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
     "enable_global_spacing_and_separation_modifier": false,
     "global_spacing_and_separation_modifier": 1.0
   },
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "create_easy_structures",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "minecraft:wooded_badlands",
+        "minecraft:badlands",
+        "#minecraft:is_river",
+        "#c:is_river",
+        "#minecraft:is_ocean",
+        "#c:is_ocean"
+      ]
+    },
+    {
+      "name": "create_rustic_structures",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nomansland",
+      "is_disabled": false,
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    }
+  ],
   "structures": [
+    {
+      "name": "create_easy_structures:big_2",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:camp_1",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:camp_2",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:camp_3",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:camp_4",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:camp_5",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:factory_1",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:factory_2",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
     {
       "name": "create_easy_structures:foresttracks",
       "override_global_flatness_check": false,
@@ -44,10 +125,13 @@
       "is_disabled": true
     },
     {
+      "name": "create_easy_structures:windmill",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
       "name": "nomansland:deep_well",
-      "blacklisted_biomes": [
-        "minecraft:ice_spikes"
-      ],
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
@@ -59,31 +143,7 @@
       "flatness_check_allow_non_solid_blocks": false
     },
     {
-      "name": "nova_structures:illager_camp",
-      "blacklisted_biomes": [
-        "minecraft:river",
-        "minecraft:frozen_river",
-        "clifftree:tropical_river",
-        "clifftree:warm_river",
-        "clifftree:cold_river",
-        "nomansland:lush_river",
-        "nomansland:blackwater_river",
-        "nomansland:desert_river"
-      ]
-    },
-    {
       "name": "nova_structures:ruin_town",
-      "blacklisted_biomes": [
-        "minecraft:frozen_peaks",
-        "minecraft:jagged_peaks",
-        "minecraft:stony_peaks",
-        "minecraft:snowy_slopes",
-        "minecraft:ice_spikes",
-        "clifftree:glacier_cliff",
-        "clifftree:glacier_valley",
-        "clifftree:oasis",
-        "natures_spirit:sugi_forest"
-      ],
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
