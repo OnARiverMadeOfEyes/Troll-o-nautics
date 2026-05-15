@@ -5,9 +5,12 @@
     "#c:is_snowy",
     "#c:is_mountain",
     "#c:is_beach",
+    "#natures_spirit:is_hot",
+    "#natures_spirit:is_cold",
+    "#natures_spirit:is_freezing",
     "natures_spirit:chaparral",
     "natures_spirit:oak_savanna",
-    "natures_spirit:prairie",
+    "natures_spirit:scorched_dunes",
     "nomansland:prairie",
     "nomansland:boreal_forest"
   ]
