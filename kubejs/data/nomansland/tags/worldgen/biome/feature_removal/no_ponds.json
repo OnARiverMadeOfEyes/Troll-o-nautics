@@ -6,6 +6,8 @@
     "#c:is_mountain",
     "#c:is_beach",
     "natures_spirit:chaparral",
+    "natures_spirit:oak_savanna",
+    "natures_spirit:prairie",
     "nomansland:prairie",
     "nomansland:boreal_forest"
   ]
