@@ -1,6 +1,0 @@
-#Set the lava sea level. You can set this above the waterlevel
-#Default: -54 (Vanilla default)
-#DO NOT CHANGE THIS AFTER WORLD GENERATION. It will probably break stuff.
-# Default: -54
-# Range: -4096 ~ 4096
-lavaLevelMin = -54

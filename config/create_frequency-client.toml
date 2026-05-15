@@ -1,0 +1,10 @@
+#.
+#Debug Options
+[debug]
+	#.
+	#Enables extended error logging in the console (Extended Debug Logging).
+	#Requires world restart.
+	enableExtendedLogging = false
+	#.
+	#Enables additional information in Frequency Controller tooltips.
+	enableControllerAdvancedTooltip = false

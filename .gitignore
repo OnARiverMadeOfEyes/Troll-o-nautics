@@ -12,3 +12,8 @@ ponders_watched.json
 usercache.json
 usernamecache.json
 command_history.txt
+/dynamic-resource-pack-cache
+/screenshots
+/vista_ffmpeg_bin
+vista_ffmpeg_sources.json
+/dynamic-data-pack-cache
