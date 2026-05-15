@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.22",
-  "config_datetime": "2026-05-13_15-50-57",
+  "config_version": "2.0.24",
+  "config_datetime": "2026-05-15_10-03-17",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -11,58 +11,84 @@
   "structures": [
     {
       "name": "create_easy_structures:foresttracks",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_box",
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "create_easy_structures:freight_station",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:house_2",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:house_3",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "create_easy_structures:house_4",
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "create_easy_structures:undergroundtrain",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "underground_structures",
-      "terrain_adaptation": "bury"
+      "is_disabled": true
     },
     {
       "name": "nomansland:deep_well",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "minecraft:ice_spikes"
       ],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin",
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     },
     {
       "name": "nomansland:desert_well",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin",
+      "override_global_flatness_check": false,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river",
+        "minecraft:frozen_river",
+        "clifftree:tropical_river",
+        "clifftree:warm_river",
+        "clifftree:cold_river",
+        "nomansland:lush_river",
+        "nomansland:blackwater_river",
+        "nomansland:desert_river"
+      ]
+    },
+    {
+      "name": "nova_structures:ruin_town",
+      "blacklisted_biomes": [
+        "minecraft:frozen_peaks",
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:snowy_slopes",
+        "minecraft:ice_spikes",
+        "clifftree:glacier_cliff",
+        "clifftree:glacier_valley",
+        "clifftree:oasis",
+        "natures_spirit:sugi_forest"
+      ],
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     }
   ],
-  "structure_sets": []
+  "structure_sets": [],
+  "structure_template_pools": []
 }

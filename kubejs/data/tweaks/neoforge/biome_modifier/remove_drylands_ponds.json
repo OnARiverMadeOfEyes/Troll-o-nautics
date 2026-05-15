@@ -1,0 +1,5 @@
+{
+    "type": "neoforge:remove_features",
+    "biomes": "natures_spirit:drylands",
+    "features": "natures_spirit:drylands_ponds"
+}
