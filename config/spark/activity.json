@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "__NoxAeterna__",
+      "uniqueId": "8155e7ed-38d3-4d9e-979c-a36637232ab3"
+    },
+    "time": 1778894180404,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nwJbW0I6T6"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "__NoxAeterna__",
+      "uniqueId": "8155e7ed-38d3-4d9e-979c-a36637232ab3"
+    },
+    "time": 1778885765704,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BiPYI0t8tr"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "__NoxAeterna__",
+      "uniqueId": "8155e7ed-38d3-4d9e-979c-a36637232ab3"
+    },
+    "time": 1778879004495,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eaYNwHRlKd"
+    }
+  }
+]
