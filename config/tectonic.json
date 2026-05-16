@@ -15,7 +15,7 @@
     "depth_cutoff_size": 0.1,
     "depth_cutoff_start": 0.1,
     "noodle_additive": -0.075,
-    "noodle_enabled": true,
+    "noodle_enabled": false,
     "ore_fix": false,
     "spaghetti_enabled": true
   },

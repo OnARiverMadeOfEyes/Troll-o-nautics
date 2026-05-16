@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.24",
-  "config_datetime": "2026-05-15_13-41-41",
+  "config_datetime": "2026-05-15_15-29-11",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -143,12 +143,61 @@
       "flatness_check_allow_non_solid_blocks": false
     },
     {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    },
+    {
       "name": "nova_structures:ruin_town",
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
     }
   ],
-  "structure_sets": [],
+  "structure_sets": [
+    {
+      "spacing": 41,
+      "separation": 30,
+      "name": "epic:large_dungeons",
+      "is_disabled": false,
+      "salt": 3456745,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "epic:large_sand_dungeon": 1,
+        "epic:large_dungeon": 1,
+        "epic:large_ice_dungeon": 1
+      }
+    },
+    {
+      "spacing": 35,
+      "separation": 25,
+      "name": "epic:medium_dungeons",
+      "is_disabled": false,
+      "salt": 3456,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "epic:medium_sand_dungeon": 1,
+        "epic:medium_ice_dungeon": 1,
+        "epic:medium_plains_dungeon": 1
+      }
+    },
+    {
+      "spacing": 21,
+      "separation": 4,
+      "name": "epic:small_dungeons",
+      "is_disabled": false,
+      "salt": 987,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "epic:small_ice_dungeon": 1,
+        "epic:small_plains_dungeon": 1,
+        "epic:small_sand_dungeon": 1
+      }
+    }
+  ],
   "structure_template_pools": []
 }
