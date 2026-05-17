@@ -1,19 +1,20 @@
-/crash-reports
-/downloads
-fabricloader.log
-/logs
-/mods/.connector
-imgui.ini
-/data
-/.sable
-/saves
-/.mixin.out
-ponders_watched.json
-usercache.json
-usernamecache.json
-command_history.txt
-/dynamic-resource-pack-cache
-/screenshots
-/vista_ffmpeg_bin
-vista_ffmpeg_sources.json
-/dynamic-data-pack-cache
+# ignore all
+*
+
+# config files
+!config/burnt_basic.json
+!config/clavis.yaml
+!config/DistantHorizons.toml
+!config/kiwi-client.yaml
+!config/structurify.json
+!config/tectonic.json
+
+# kubejs
+!kubejs
+
+# mods
+!mods
+
+# other
+!.gitignore
+!TrollPhyslogo.png
