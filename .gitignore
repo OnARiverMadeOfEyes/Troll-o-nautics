@@ -18,4 +18,5 @@
 
 # other
 !/.gitignore
+!/options.txt
 !/TrollPhyslogo.png
