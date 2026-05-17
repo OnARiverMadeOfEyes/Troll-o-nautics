@@ -1,20 +1,21 @@
 # ignore all
 *
+!*/
 
 # config files
-!config/burnt_basic.json
-!config/clavis.yaml
-!config/DistantHorizons.toml
-!config/kiwi-client.yaml
-!config/structurify.json
-!config/tectonic.json
+!/config/burnt_basic.json
+!/config/clavis.yaml
+!/config/DistantHorizons.toml
+!/config/kiwi-client.yaml
+!/config/structurify.json
+!/config/tectonic.json
 
 # kubejs
-!kubejs
+!/kubejs/**
 
 # mods
-!mods
+!/mods/*
 
 # other
-!.gitignore
-!TrollPhyslogo.png
+!/.gitignore
+!/TrollPhyslogo.png
