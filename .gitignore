@@ -9,6 +9,7 @@
 !/config/kiwi-client.yaml
 !/config/structurify.json
 !/config/tectonic.json
+!/config/aeronautics-server.toml
 
 # kubejs
 !/kubejs/**
