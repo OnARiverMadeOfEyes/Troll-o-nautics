@@ -1,7 +1,5 @@
 {
     "type": "neoforge:remove_features",
-    "biomes": [
-        "#c:is_nether"
-    ],
+    "biomes": "#c:is_nether",
     "features": "spelunkery:sulfur_patch"
 }
