@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.24",
-  "config_datetime": "2026-05-15_15-29-11",
+  "config_datetime": "2026-05-18_23-43-32",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -131,6 +131,14 @@
       "flatness_check_allow_non_solid_blocks": false
     },
     {
+      "name": "create_ltab:birch_structures",
+      "is_disabled": true
+    },
+    {
+      "name": "mss:white_house",
+      "is_disabled": true
+    },
+    {
       "name": "nomansland:deep_well",
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
@@ -138,6 +146,10 @@
     },
     {
       "name": "nomansland:desert_well",
+      "blacklisted_biomes": [
+        "natures_spirit:drylands",
+        "nomansland:desert_river"
+      ],
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
