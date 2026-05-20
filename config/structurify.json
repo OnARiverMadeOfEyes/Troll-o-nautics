@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.24",
-  "config_datetime": "2026-05-18_23-43-32",
+  "config_version": "2.0.25",
+  "config_datetime": "2026-05-19_22-16-55",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -42,6 +42,74 @@
     }
   ],
   "structures": [
+    {
+      "name": "common_stargates:cartouche/red_sandstone_cartouche_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:cartouche/sandstone_cartouche_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:cartouche/stone_cartouche_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_badlands",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_basalt",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_deep_dark",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_deepslate",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_snow",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_soul_sand",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/pegasus/outpost/pegasus_stargate_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/pegasus/pegasus_stargate_grass",
+      "is_disabled": true
+    },
+    {
+      "name": "common_stargates:stargate/universe/pedestal/stargate_pedestal_end",
+      "is_disabled": true
+    },
     {
       "name": "create_easy_structures:big_2",
       "override_global_flatness_check": false,
@@ -165,9 +233,191 @@
       "override_global_flatness_check": false,
       "enable_flatness_check": true,
       "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "sgjourney:cartouche/abydos_cartouche",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:cartouche/chulak_cartouche_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:cartouche/red_sandstone_cartouche_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:cartouche/sandstone_cartouche_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:cartouche/stone_cartouche_monument",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:city/abydos_city",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:goauld_temple/badlands_ziggurat/badlands_ziggurat",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:goauld_temple/desert_pyramid/abandoned/desert_pyramid_abandoned",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:goauld_temple/desert_pyramid/desert_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:goauld_temple/jungle_pyramid/jungle_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:jaffa_house",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/classic/pedestal/stargate_pedestal",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/buried/buried_stargate",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/buried/buried_stargate_badlands",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/buried/buried_stargate_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_badlands",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_cavum_tenebrae",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_chulak",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_deep_dark",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_deepslate",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_glacio",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_mushroom",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_rima",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_snow",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_unitas",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/temple/abydos_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/temple/great_pyramid",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/temple/stargate_temple_nether",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/terra_stargate",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/pegasus/outpost/lantean_outpost_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/pegasus/pegasus_stargate",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/universe/destiny",
+      "is_disabled": true
+    },
+    {
+      "name": "sgjourney:stargate/universe/pedestal/universe_stargate_pedestal_island_end",
+      "is_disabled": true
     }
   ],
   "structure_sets": [
+    {
+      "spacing": 24,
+      "separation": 16,
+      "name": "common_stargates:cartouche",
+      "is_disabled": true,
+      "salt": 17368164,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "common_stargates:cartouche/sandstone_cartouche_monument": 1,
+        "common_stargates:cartouche/stone_cartouche_monument": 1,
+        "common_stargates:cartouche/red_sandstone_cartouche_monument": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 64,
+      "name": "common_stargates:common_stargate",
+      "is_disabled": true,
+      "salt": 1875847473,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_desert": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_basalt": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_deepslate": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_nether": 1,
+        "common_stargates:stargate/pegasus/outpost/pegasus_stargate_outpost": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_soul_sand": 1,
+        "common_stargates:stargate/pegasus/pegasus_stargate_grass": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_jungle": 1,
+        "common_stargates:stargate/universe/pedestal/stargate_pedestal_end": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_mushroom": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_badlands": 1,
+        "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_snow": 1
+      }
+    },
     {
       "spacing": 41,
       "separation": 30,
@@ -208,6 +458,73 @@
         "epic:small_ice_dungeon": 1,
         "epic:small_plains_dungeon": 1,
         "epic:small_sand_dungeon": 1
+      }
+    },
+    {
+      "name": "sgjourney:buried_stargate",
+      "is_disabled": true,
+      "salt": 14324351,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "sgjourney:stargate/milky_way/buried/buried_stargate_badlands": 1,
+        "sgjourney:stargate/milky_way/buried/buried_stargate": 1,
+        "sgjourney:stargate/milky_way/buried/buried_stargate_desert": 1
+      }
+    },
+    {
+      "name": "sgjourney:end_stargate_pedestal",
+      "is_disabled": true,
+      "salt": 148317432,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "sgjourney:stargate/universe/pedestal/universe_stargate_pedestal_island_end": 1
+      }
+    },
+    {
+      "name": "sgjourney:stargate_outpost",
+      "is_disabled": true,
+      "salt": 1443732816,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "sgjourney:stargate/pegasus/outpost/lantean_outpost_ocean": 1
+      }
+    },
+    {
+      "name": "sgjourney:stargate_pedestal",
+      "is_disabled": true,
+      "salt": 1646217471,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_jungle": 1,
+        "sgjourney:stargate/classic/pedestal/stargate_pedestal": 1,
+        "sgjourney:stargate/milky_way/terra_stargate": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_deepslate": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_glacio": 1,
+        "sgjourney:stargate/pegasus/pegasus_stargate": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_chulak": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_snow": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_badlands": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_rima": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_unitas": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_cavum_tenebrae": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_desert": 1,
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_mushroom": 1
+      }
+    },
+    {
+      "name": "sgjourney:stargate_temple",
+      "is_disabled": true,
+      "salt": 1543892866,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "sgjourney:stargate/milky_way/temple/stargate_temple_nether": 1,
+        "sgjourney:stargate/milky_way/temple/abydos_pyramid": 1
       }
     }
   ],
